@@ -1,0 +1,21 @@
+name: Welcome
+version: '1.0'
+main: me.malajis.welcome.Main
+author: Malajis
+api-version: '1.13'
+commands:
+  welcome:
+    description: '插件主命令'
+    usage: |
+      §3==========[ Welcome ]==========
+      §3主指令：§f/welcome
+      §3功能：§f命令帮助
+      §3子命令：
+      §f/welcome reload§7§o - 重载插件
+      §f/welcome try§7§o - 发送测试按钮至全体玩家
+permissions:
+  welcome.reload:
+    description: '重载插件'
+  welcome.try:
+    description: '按钮测试'
+
