@@ -4,8 +4,10 @@ Main:
   button: "&f[&a点击欢迎&f]"
   #鼠标停留在按钮上显示的文本，新玩家名：[new]
   button_message: "&a点击欢迎玩新家 &e[new]"
-  #点击按钮后玩家聊天框自动获取的的欢迎文本，新玩家名：[new]
+  #输入/welcome msg [玩家ID]发出欢迎文本，玩家名：[new]
   welcome: "欢迎新玩家 [new] 加入服务器！"
+  #点击按钮后执行的命令，玩家名：[new]
+  button_command: "/welcome msg [new]"
 #文本设置
 Messages:
   #插件前缀名
@@ -13,4 +15,4 @@ Messages:
   #重载插件
   reload: "&aWelcome插件已重载！"
   #没有权限
-  error: "&c你没有使用该命令的权限或者命令不存在！"
+  error: "&c你没有使用该命令的权限、命令不存在或不完整！"

@@ -1,5 +1,5 @@
 name: Welcome
-version: '1.0'
+version: '1.1'
 main: me.malajis.welcome.Main
 author: Malajis
 api-version: '1.13'
@@ -13,9 +13,12 @@ commands:
       §3子命令：
       §f/welcome reload§7§o - 重载插件
       §f/welcome try§7§o - 发送测试按钮至全体玩家
+      §f/welcome msg [玩家名]§7§o - 自己发出欢迎消息
 permissions:
   welcome.reload:
     description: '重载插件'
   welcome.try:
     description: '按钮测试'
+  welcome.msg:
+    description: '发送欢迎消息'
 
